@@ -1,3 +1,7 @@
+from setuptools import setup, find_packages
+
+setup(name = 'tb', packages=find_packages(),  install_requires = ['pyTelegramBotAPI'])
+
 import telebot as tb
 
 bot = tb.TeleBot('5614927499:AAHPORVnMSJ9CISJ45soNvP-md2tqiHGB5E')
